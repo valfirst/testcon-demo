@@ -1,0 +1,7 @@
+Composite: When I search for `$keyword` in `$country` -> `$city`
+When I enter `<keyword>` in field located `By.xpath(//input[contains(@id, 'keyword')])`
+When I check checkbox located by `By.name(Office)`
+When I click on element located `By.className(recruiting-search__location)`
+When I click on element located `By.caseSensitiveText(<country>)`
+When I click on element located `By.caseSensitiveText(<city>)`
+When I click on element located `By.name(FIND)`
